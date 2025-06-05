@@ -1,0 +1,24 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+}
+.menu-principal {
+  background: #222;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.menu-principal a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.menu-principal a:hover {
+  background: #555;
+}
+main#conteudo {
+  padding: 20px;
+}
